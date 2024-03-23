@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scolling Website | Javascript</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" min-h-[100vh]  bg-gradient-to-r from-indigo-950 to-indigo-800">
+    <header class="absolute px-16 py-6 items-center justify-between flex w-full z-[10000]">
+     <a class="px-3 py-4 mx-10 my-6 text-2xl flex justify-start text-white font-bold">Logo </a>
+    <ul class=" flex justify-center items-center">
+
+        <li class="list-none ml-12 py-1 rounded-xl hover:bg-[#668bda] transition duration-300 ease-in-out transform hover:translate-x-2">
+            <a href="#" class="px-4 py-4 font-bold no-underline text-white">
+                Home
+            </a>
+        </li >
+        <li class="list-none ml-12 py-1 rounded-xl hover:bg-[#668bda] transition duration-300 ease-in-out transform hover:translate-x-2">
+            <a href="#" class="px-4 py-4 font-bold no-underline text-white">
+                About
+            </a>
+        </li>
+        <li class="list-none ml-12 py-1 rounded-xl hover:bg-[#668bda] transition duration-300 ease-in-out transform hover:translate-x-2">
+            <a href="#" class="px-4 py-4 font-bold no-underline text-white">
+                Work
+            </a>
+        </li>
+        <li class="list-none ml-12 py-1 rounded-xl hover:bg-[#7ea0e8] transition duration-300 ease-in-out transform hover:translate-x-2">
+            <a href="#" class="px-4 py-4 font-bold no-underline text-white">
+                Contact
+            </a>
+        </li>
+    </ul>
+    </header>
+   <section class="relative before:[contents absolute bottom-0 w-full bg-gradient-to-t from-[#fff] to-[#1c0522] bg-transparent z-[1000]]">
+    <img src="stars.png" id="stars" class=" target:shadow-3xl absolute object-cover">
+    <img src="moon.png" id="moon" class="absolute object-cover">
+    <img src="mountains_behind.png" id="mountains_behind" class="absolute object-cover">
+
+    <h2 id="text" class="absolute px-32 py-9 mx-80 my-72 h-full  text-white  z-10 whitespace-nowrap text-[6vw] flex justify-center ">Moon light</h2>
+
+    <a href="#sec" id="btn" class="no-underline transform translate-y-[100px] px-11 mx-96 rounded inline-block text-xl bg-white text-[#2b1055] z-[9]">Explore</a>
+
+    <img  src="mountains_front.png" id="mountains_front" class="absolute object-cover z-10">
+   </section>
+   <div class=" relative px-80 bg-[#1c0522]"> 
+     <h1 class="text-[3.5em] my-10 text-white ">Parallax Scolling Effects</h1> 
+     <p class="text-[1.2em] text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nemo et provident veritatis, quaerat porro eius quidem asperiores
+          reiciendis eligendi illum dolores doloremque similique a nostrum ullam ducimus amet nam ex deleniti illo in consectetur vero? Consectetur 
+           saepe fugit nostrum perferendis, officia nulla veniam consequuntur iusto inventore qui soluta repellendus ea magni ut rerum sit quo 
+            necessitatibus quas ex velit eveniet tempore, explicabo asperiores. Eveniet atque, in explicabo iste obcaecati reprehenderit praesentium 
+            exercitationem molestias, non consequatur consectetur eum aperiam beatae sunt iure? Eum laborum magnam amet omnis minima, optio harum laudantium  
+            iste beatae fuga nesciunt, necessitatibus architecto molestias nisi porro a laboriosam, id officia voluptatibus nihil! Aut accusantium quod sequi.<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum nihil labore, unde maiores fugiat, dicta nulla molestiae, 
+             temporibus explicabo sequi mollitia. Nihil omnis maiores nemo, mollitia iusto voluptatum magni impedit tempore officiis. Necessitatibus, tempora ex, animi et nam beatae aspernatur expedita labore sit, commodi numquam magnam eos dicta. Distinctio, quas iste. Ad, vel inventore 
+              beatae omnis vitae quaerat non nostrum exercitationem consequatur, commodi fuga alias sapiente quidem sequi nam quisquam, quia consequuntur repudiandae vero! Nihil esse cupiditate recusandae corrupti ea dignissimos, quisquam iusto ducimus illo repellendus rem culpa quibusdam 
+             illum dolor impedit cum quos harum! Ratione consequuntur, ipsa alias praesentium blanditiis aliquam maxime rerum amet molestiae. Nulla sed laudantium blanditiis a tempore impedit illum ullam dicta molestias beatae explicabo magnam eligendi facilis, ut voluptatibus. Architecto 
+             totam magni debitis qui assumenda praesentium ea sunt obcaecati, reprehenderit sequi distinctio minima hic eius ipsam voluptate veniam consectetur quia doloribus sed error accusantium laborum. 
+           <br><br></p> 
+    </div>
+</body>
+</html>
